@@ -11,7 +11,7 @@ For testing download `Africa's Talking` android app from Google Playstore or use
 
 This project supports both composer dependency management tool and can also be used without composer
 
-* Run the following command to clone this repository
+* Run the following command to clone this repo
 
 ```
 git clone https://github.com/Bascil/ussd-student-bursary-application.git
