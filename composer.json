@@ -1,0 +1,12 @@
+{
+    "name": "bascil/ussd-student-bursary-application",
+    "description": "PHP Implementation for Student Bursary Application on USSD",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Basil Ndonga",
+            "email": "basilndonga@gmail.com"
+        }
+    ],
+    "require": {}
+}
