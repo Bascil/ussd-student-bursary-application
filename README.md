@@ -1,4 +1,4 @@
-# ussd-student-bursary-application
+# PHP Implementation for Student Bursary Application on USSD
 
 This is a PHP implementation for a student bursary application on USSD based on the `Africa's Talking` API.This is developed on sandbox (testing) mode. To go live contact `Africa's Talking Ltd` on https://www.africastalking.com/contact.
 
