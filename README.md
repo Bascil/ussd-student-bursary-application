@@ -23,7 +23,7 @@ OR
 
 ## Configuration
 
-1. Import the ussd_sample.sql file into MySQL database.
+1. Import the cdf_bursary.sql file into MySQL database.
 
 2. Configure the database connection using dbConnector.php file
 
@@ -31,7 +31,7 @@ OR
 <?php 
      /* Configure Database */
 
-     $conn = 'mysql:dbname=ussd_sample;host=127.0.0.1;'; //database name
+     $conn = 'mysql:dbname=cdf_bursary;host=127.0.0.1;'; //database name
      $user = 'root'; // your mysql user 
      $password = ''; // your mysql password
 
@@ -57,7 +57,7 @@ OR
 
 4. In your sandbox account under USSD > Create Channel , pick a shared service code  such as `*384*` and a channel such as 1100 i.e `*384*1100#` (Be sure to take a unique channel which is not taken already)
 
-5. Configure your callback URL (the URL that points to your application) e.g http://www.example.com/folder_name/ussd.php then click `Create channel`. This assumes you are working from a live server whose domain name is example.com.Replace the domain name with your own.
+5. Configure your callback URL (the URL that points to your application) e.g http://www.example.com/folder_name/ussd_cdf.php then click `Create channel`. This assumes you are working from a live server whose domain name is example.com.Replace the domain name with your own.
 
 6. If working from localhost you can set up a `Ngrok` server or `Localtunnel` to expose your localhost to the internet. Use the temporary URL provided as your callback e.g  http://6a71f5ec.ngrok.io/folder_name/ussd.php. This only works when the computer is on and connected to the internet. If using `Ngrok` free package this address may change every 8 hours. You could opt for a paid version at 5 US dollars a month.
 
